@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Finance + Brains</title>
+  <meta name="description" content="How consciousness shapes financial behavior." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #F7F3EE;
+      --ink: #1E1E1E;
+      --muted: #5A5A5A;
+      --line: rgba(30,30,30,.12);
+      --olive: #4E5B4A;
+      --clay: #B77B63;
+      --gold: #B69A63;
+
+      --serif: "Libre Baskerville", serif;
+      --sans: "Inter", system-ui, sans-serif;
+
+      --radius: 18px;
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      line-height: 1.6;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+    }
+
+    header {
+      margin-bottom: 60px;
+    }
+
+    h1, h2, h3 {
+      font-family: var(--serif);
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      font-size: 44px;
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: rgba(30,30,30,.75);
+      max-width: 65ch;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.8);
+      font-size: 14px;
+    }
+
+    section {
+      border-top: 1px solid var(--line);
+      padding-top: 40px;
+      margin-top: 60px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
